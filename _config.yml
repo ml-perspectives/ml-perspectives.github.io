@@ -29,12 +29,13 @@ github_username: ml-perspectives
 
 # Build settings
 theme: just-the-docs
-logo:"assets/images/logo.png" 
-search_enabled: true
-search:
-  hint_text: "Search..."
-  min_search_length: 2
-  layout: horizontal
+just_the_docs:
+  logo:"assets/images/logo.png" 
+  search_enabled: true
+  search:
+    hint_text: "Search..."
+    min_search_length: 2
+    layout: horizontal
 plugins:
   - jekyll-feed
 
