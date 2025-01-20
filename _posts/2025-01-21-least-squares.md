@@ -1,6 +1,6 @@
 ---
-title: 'Blog Post number 1'
-date: 2012-08-14
+title: 'Least Squares and SVD'
+date: 2025-01-21
 permalink: /posts/2012/08/blog-post-1/
 tags:
   - cool posts
