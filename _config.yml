@@ -311,7 +311,7 @@ compress_html:
   ignore:
     envs: development
 analytics:
-  provider: google-tag
+  provider: google-gtag
   google:
     tracking_id: G-2M00NGPTHP
     anonymize_ip: false 
