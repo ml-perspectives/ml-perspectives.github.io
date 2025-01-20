@@ -7,9 +7,15 @@ redirect_from:
   - /about/
   - /about.html
 ---
-ML-Theory Blog to discuss the various topics/papers in machine learning
 
----
+
+I am a doctoral researcher at the Computer Science Department 
+
+
+
+--- {% include base_path %} {% capture written_year %}'None'{% endcapture %} {% for post in site.posts %} {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %} {% if year != written_year %}
+{{ year }}
+{% capture written_year %}{{ year }}{% endcapture %} {% endif %} {% include archive-single.html %} {% endfor %}
 <!---
 Research
 ======
@@ -130,5 +136,5 @@ Education
 	%}
 
 </table>
-
 --->
+

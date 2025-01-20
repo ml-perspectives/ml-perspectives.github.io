@@ -1,9 +1,9 @@
 ---
-title: 'Blog Post number 1'
-date: 2012-08-14
-permalink: /posts/2012/08/blog-post-1/
+title: 'Least Square Solutions and SVD'
+date: 2025-01-20
+permalink: /posts/2025/01/Least-Square-Solutions/
 tags:
-  - cool posts
+  - least square
   - category1
   - category2
 ---
