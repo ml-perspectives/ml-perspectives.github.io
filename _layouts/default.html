@@ -7,6 +7,15 @@ layout: compress
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
+   <!-- Google Analytics  -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2M00NGPTHP"></script>
+<script>
+  window.datalayer = window.datalayer || [];
+  function gtag(){datalayer.push(arguments);}
+  gtag('js',new Date());
+
+  gtag('config', 'G-2M00NGPTHP');
+ </script>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
@@ -26,14 +35,5 @@ layout: compress
     </div>
 
     {% include scripts.html %}
-<!-- Google Analytics  -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2M00NGPTHP"></script>
-<script>
-  window.datalayer = window.datalayer || [];
-  function gtag(){datalayer.push(arguments);}
-  gtag('js',new Date());
-  
-  gtag('config', 'G-2M00NGPTHP');
- </script>
   </body>
 </html>
